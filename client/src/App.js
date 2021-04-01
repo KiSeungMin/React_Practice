@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Jquery1 from './Jquery'
+import PropsBoolean from './PropsBoolean';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <Jquery1/>
+      <PropsBoolean BooleanTrueFalse={false}/>
+      <PropsBoolean BooleanTrueFalse/>
     </div>
   );
 }
