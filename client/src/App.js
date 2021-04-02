@@ -1,13 +1,12 @@
-import React from 'react';
-import './App.css';
-import ComponentClass from "./ComponentClass";
+import React, { Fragment } from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import ReactstrapTab from './ReactstrapTab';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <p>CSS 적용하기</p>
-      <ComponentClass/>
+      <ReactstrapTab/>
     </div>
   );
 }
