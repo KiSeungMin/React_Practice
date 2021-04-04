@@ -1,12 +1,12 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import ReactstrapTab from './ReactstrapTab';
+import ReactHoc from './ReactHoc';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <ReactstrapTab/>
+      <ReactHoc name='React200'/>
     </div>
   );
 }
